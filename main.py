@@ -51,7 +51,7 @@ def quadratic_multiply(x, y):
 def _quadratic_multiply(x, y):
     xvec = x.binary_vec
     yvec = y.binary_vec
-
+    
     xvec, yvec = pad(xvec, yvec)
     
     if len(xvec) == 1 and len(yvec) == 1:
